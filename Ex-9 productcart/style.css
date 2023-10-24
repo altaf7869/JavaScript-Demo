@@ -1,0 +1,99 @@
+body {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.fa{
+    font-size: 25px;
+}
+.fa-times{
+    color: red;
+}
+#cartCountrt{
+    font-size: 20px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+.navbar {
+    padding: 20px 10px;
+    background: rgb(192, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.productcontainer {
+    max-width: 1500px; margin: auto;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+
+}
+
+.card img{
+max-width: 30%;
+object-fit: cover;
+}
+.price{
+font-size: 50px;
+}
+.card span ,.card a {
+text-align: center;
+display: block;
+background: rgb(231, 231, 231);
+text-decoration: none;
+padding: 10px;
+margin: 5px;
+}
+.card h5{
+font-size: 15px;
+}
+.card p{
+    font-size: 10px;
+}
+.card button{
+right: 0;
+top: 2px;
+padding: 10px;
+border: none;
+margin: 2px;
+
+}
+.card .remove{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+}
+.card .Quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.totalcost{
+    width: 100%;
+    margin: auto;
+    background: yellow;
+    display: block;
+    
+}
